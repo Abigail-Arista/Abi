@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Abigail Arista">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Abigail Arista| Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="icono2.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="descarga (1).jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="images.jpg" alt="Foto de Abigail Arista">
+        <h1>Hola, soy Abigail Arista</h1>
+        <!--<h2>Desarrollo sitios web y logos creativos .</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="images (1).jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Abigail Arista</h2>
+        <p class="seccion-texto">Soy estudiante de Tecnolochicas-PRO, mi principal objetivo es poder ayudarte en la creacion de tu sitio web, diseño del logo de tu negocio, diseño de invitaciones. </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Aprendi a crear paginas mediante el uso de la aplicacion "visual studio code" con distintos formatos como HTML, CSS, JavaScript.  </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Artículos</p>
+            <p>He diseñado logos para pequeños comercios asi como tambien para proyectos escolares, trabajo con material digital para dar mi propio diseño y estilo a mis proyectos. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Es una experiencia unica donde aprendes algo nuevo cada día, asi como tambien refuerzas conocimientos previos respecto al tema.  </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.wikipedia.org/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.wikipedia.org/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="maly.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.canva.com/design/DAFTqwSefzg/zYmDQh4YpZp3E6QQrCwvBg/edit?utm_content=DAFTqwSefzg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.canva.com/design/DAFTqwSefzg/zYmDQh4YpZp3E6QQrCwvBg/edit?utm_content=DAFTqwSefzg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="data:image/png;base64,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" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.canva.com/es_419/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.canva.com/es_419/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="invitacion.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.canva.com/design/DAFGbO6qJvE/q03GkbEmHcUlFxJn_-lIpg/edit?utm_content=DAFGbO6qJvE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.canva.com/design/DAFGbO6qJvE/q03GkbEmHcUlFxJn_-lIpg/edit?utm_content=DAFGbO6qJvE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="infografia.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6 INFOGRAFIA</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.canva.com/design/DAFQMPVlzC8/6s9Z2Z7YzOVWWaNceGU6MQ/edit?utm_content=DAFQMPVlzC8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.canva.com/design/DAFQMPVlzC8/6s9Z2Z7YzOVWWaNceGU6MQ/edit?utm_content=DAFQMPVlzC8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://www.pinterest.com.mx/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://nancynsalazar.medium.com/gu%C3%ADa-r%C3%A1pida-para-construir-tu-portafolio-como-programador-a-9f02daeabb12" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Guía rápida para construir tu portafolio como programador(a)
+            </li>
+          </a>
+          <a href="https://www.cyberclick.es/numerical-blog/como-crear-un-logotipo-paso-a-paso-herramientas-y-ejemplos" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Cómo crear un logotipo: paso a paso.
+            </li>
+          </a>
+          <a href="http://invitarte.es/consejos-invitacion-perfecta-para-eventos/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+             Consejos para crear una invitacion
+            </li>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Lenguaje de programación
+            </li>
+          </a>
+          <a href="https://www.lenovo.com/co/es/lenovo-stories/comandos-del-teclado-en-windows?orgRef=https%253A%252F%252Fwww.google.com%252F" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Atajos de teclado
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://concepto.de/programacion/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="descarga (2).jpg" alt="Foto de Gino">
+              <p class="testimonio-texto">Muy buenos y bonitos diseños, practicos y llamativos para la vista de mis clientes.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Yareth</p>
+                <p class="cargo">Propietaria de negocio </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="images (2).jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Son diseños muy presentables y a su vez sencillos, aptos para ceremonias formales</p>
+              <div class="testimonio-info">
+                <p class="cliente">Harol</p>
+                <p class="cargo">Director de secundaria </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="descarga.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Son paginas muy practicas para estudiar y buscar información, sobre la programación. </p>
+              <div class="testimonio-info">
+                <p class="cliente">Monica</p>
+                <p class="cargo">Estudiante de informatica</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="images (3).jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://www.snapchat.com/add/abigail_ri20?share_id=YVMvx-EVPMs&locale=es-US" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-snapchat"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100017159209106&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://instagram.com/abi_aristar?igshid=ZDdkNTZiNTM=" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Abigail Arista (2022) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Securit
